@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent Claire Teskey</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            text-align: center;
+            background: #f9f9f9;
+        }
+
+        /* Header */
+        header {
+            background: #d32f2f;
+            color: white;
+            padding: 1rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content */
+        .content {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .content h2 {
+            font-size: 2rem;
+            color: #d32f2f;
+            margin-bottom: 1rem;
+        }
+
+        .content p {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        .content img {
+            max-width: 100%;
+            height: auto;
+            margin: 1rem 0;
+            border: 2px solid #d32f2f;
+        }
+
+        .pricing {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #d32f2f;
+            margin: 1rem 0;
+        }
+
+        /* Disclaimer */
+        .disclaimer {
+            background: #fff;
+            border: 2px solid #d32f2f;
+            padding: 1rem;
+            margin: 2rem auto;
+            max-width: 600px;
+            text-align: left;
+        }
+
+        .disclaimer h3 {
+            font-size: 1.3rem;
+            color: #d32f2f;
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .disclaimer img.flag {
+            width: 30px;
+            margin-right: 0.5rem;
+        }
+
+        .disclaimer ul {
+            list-style: disc;
+            margin-left: 2rem;
+        }
+
+        /* Footer */
+        footer {
+            background: #d32f2f;
+            color: white;
+            padding: 1rem;
+            font-size: 0.9rem;
+        }
+
+        button {
+            background: #d32f2f;
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 1rem;
+        }
+
+        button:hover {
+            background: #b71c1c;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            .content h2 {
+                font-size: 1.5rem;
+            }
+
+            .content p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Claire Teskey's Fun Zone!</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h2>Etobicoke’s Freshest Tilapia!</h2>
+        <p>Etobicoke’s freshest fish!</p>
+        
+<img src="https://i.imgur.com/MOKV8ph.jpeg" alt="Claire Teskey">
+        <p>“Have you ever wanted someone who knows how to open up — and not just emotionally? Someone who’s always available, easy to access, and never says no to a customer?”</p>
+        <p class="pricing">RENT CLAIRE TESKEY FOR THE LOW PRICE OF $0! THAT'S RIGHT, SHE’S PRICELESS*!!!</p>
+        <button onclick="rentNow()">Rent Now!</button>
+        <!-- Optional: Add gallery for more images -->
+        <!-- <div id="gallery"></div> -->
+    </section>
+
+    <section class="disclaimer">
+        <h3><img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg" alt="Canada Flag"> WARNING: Health Canada</h3>
+        <p>This person may expose you to significant health risks.</p>
+        <p>Frequent exposure to this individual has been linked to:</p>
+        <ul>
+            <li>Increased risk of sexually transmitted infections (STIs)</li>
+            <li>Unpredictable rashes and skin reactions</li>
+            <li>Emotional distress and regret</li>
+            <li>Unwanted, prolonged physical contact</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 Rent Claire Teskey.</p>
+    </footer>
+
+    <script>
+        function rentNow() {
+            alert("Don't have to click me twice!");
+        }
+
+        // Optional: Add gallery for multiple images
+        /*
+        const images = [
+            { src: "images/image1.jpg", alt: "Image 1" },
+            { src: "images/image2.jpg", alt: "Image 2" }
+        ];
+
+        const gallery = document.getElementById("gallery");
+        images.forEach(image => {
+            const img = document.createElement("img");
+            img.src = image.src;
+            img.alt = image.alt;
+            img.style.maxWidth = "200px";
+            img.style.margin = "0.5rem";
+            img.style.borderRadius = "5px";
+            gallery.appendChild(img);
+        });
+        */
+    </script>
+</body>
+</html>
